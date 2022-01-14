@@ -11,3 +11,10 @@ func (b *button) press() {
 type command interface {
 	execute()
 }
+
+type calculator interface {
+	add()
+	multiply()
+	divide()
+	sub()
+}
